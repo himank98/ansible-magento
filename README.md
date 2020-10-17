@@ -7,7 +7,7 @@ Follow the steps below to get it all set up!
 * Brand new AWS EC2 running Amazon Linux.
     * It needs at least 2 GB of Memory RAM.
     * It was tested successfully on a t2.medium instance.
-* Magento Repo Keys: https://devdocs.magento.com/guides/v2.2/install-gde/prereq/connect-auth.html
+* Magento Repo Keys: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html
 
 ### Installation
 All variables are inside `group_vars/all.yml` and I added as many comments as possible so you can edit as you like.
