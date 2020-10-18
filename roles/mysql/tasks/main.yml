@@ -1,24 +1,17 @@
 ---
-- name: Install MySQL 5.7 from EPEL
+- name: Install Mariadb
   yum:
     name: "{{ item }}"
     state: present
     #    enablerepo: epel
   with_items:
-   - mysql
+   - mariadb-server
    - libselinux-python
    - libsemanage-python
 
-- name: Create Mysql configuration file
-  template:
-    src: my.cnf.j2
-    dest: /etc/my.cnf
-  notify:
-  - restart mysql
-
-- name: Start Mysql Service
+- name: Start Mariadb Service
   service:
-    name: mysqld
+    name: mariadb
     state: started
     enabled: true
 

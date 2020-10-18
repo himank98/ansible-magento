@@ -1,7 +1,7 @@
 ---
 # Magento Repo API Key and Secret Key
-repo_api_key: public_key
-repo_secret_key: private_key
+repo_api_key: 7bb3db60d9570de0b994a8fa4d2e872a
+repo_secret_key: 9737f01d3ac554254a73cf7a9a8161bb
 
 # Which version of Magento to deploy: http://www.magentocommerce.com/download
 # You cal also see release notes here: https://devdocs.magento.com/guides/v2.2/release-notes/bk-release-notes.html
@@ -30,7 +30,7 @@ magento_admin_pass: StrongPassword
 magento_admin_location: securelocation
 
 # Magento Domain
-magento_domain: http://mymagentodomain.com/
+magento_domain: http://15.206.170.51
 
 # Timezone can be found here: https://gist.github.com/CajuCLC/0a92e071c331103d0defa7374e92df0a
 magento_timezone: America/Chicago
