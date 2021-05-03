@@ -1,4 +1,4 @@
-# ansible-magento2
+# Configure Magento 2 using Ansible 
 
 This is an Ansible playbook to install Magento 2 Open Source on a single server using Amazon Linux.
 Follow the steps below to get it all set up!
